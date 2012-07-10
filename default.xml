@@ -311,4 +311,5 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/samsung" name="FruitsAndVeggies/vendor_samsung" remote="fnv" revision="jb" />
 
+  <project path="platform_manifest" name="FruitsAndVeggies/platform_manifest" remote="fnv" revision="jb" />
 </manifest>
