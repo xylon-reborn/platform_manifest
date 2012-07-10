@@ -4,6 +4,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="fnv"
+           fetch="https://github.com/"
+           revision="jb" />
+
   <default revision="refs/tags/android-4.1.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -304,5 +309,6 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
+  <project path="vendor/samsung" name="FruitsAndVeggies/vendor_samsung" remote="gh" />
 
 </manifest>
