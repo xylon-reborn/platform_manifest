@@ -4,15 +4,18 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <remote  name="github"
+  <remote  name="fnv"
            fetch="https://github.com/FruitsAndVeggies/"
            review="http://fnv.snipanet.com/" />
+
+ <remote  name="gh"
+           fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.1.1_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="github" revision="jb" >
+  <project path="build" name="platform_build" remote="fnv" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -42,7 +45,7 @@
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="github" revision="jb" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
-  <project path="external/aac" name="platform/external/aac" />
+  <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.1.1_r1_" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -187,7 +190,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="frameworks_base" remote="github" revision="jb" />
+  <project path="frameworks/base" name="frameworks_base" remote="fnv" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -308,8 +311,8 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
-  <project path="vendor/fnv" name="platform_vendor_fnv" remote="github" revision="jb" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="github" revision="jb" />
-  <project path="platform_manifest" name="platform_manifest" remote="github" revision="jb" />
+  <project path="vendor/fnv" name="platform_vendor_fnv" remote="fnv" revision="jb" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="fnv" revision="jb" />
+  <project path="platform_manifest" name="platform_manifest" remote="fnv" revision="jb" />
   
 </manifest>
