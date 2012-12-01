@@ -9,7 +9,7 @@ Get Repo
 Syncing the Source
 ---------------------------------------
 
-    mkdir ~/fnv
-    cd ~/fnv
-    repo init -u https://github.com/FruitsAndVeggies/platform_manifest -b jb
+    mkdir ~/aosp
+    cd ~/aosp
+    repo init -u https://github.com/XYAOSP/platform_manifest -b jellybean
     repo sync -j16
