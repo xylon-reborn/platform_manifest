@@ -16,7 +16,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="cm" revision="mr1-staging">
+  <project path="build" name="build" remote="xy" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
