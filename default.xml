@@ -350,7 +350,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/lge" name="vendor_lge" remote="xy" revision="jellybean" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="xy" revision="jellybean" />
   <project path="vendor/samsung" name="vendor_samsung" remote="xy" revision="jellybean" />
   <project path="vendor/aosp" name="vendor_aosp" remote="xy" revision="jellybean" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="xy" revision="jellybean" />
