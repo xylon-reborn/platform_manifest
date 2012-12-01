@@ -11,5 +11,5 @@ Syncing the Source
 
     mkdir ~/fnv
     cd ~/fnv
-    repo init -u https://github.com/FruitsAndVeggies/platform_manifest -b jb
+    repo init -u https://github.com/XYAOSP/platform_manifest -b jellybean
     repo sync -j16
