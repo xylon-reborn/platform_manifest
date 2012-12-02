@@ -360,5 +360,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="mr1-staging" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="mr1-staging" />
 
+  <project path="kernel/samsung/tuna" name="xylonak_kernel_samsung_tuna" remote="xy" revision="master" />
+
   <project path="platform_manifest" name="platform_manifest" remote="xy" revision="jb4.2" />
 </manifest>
