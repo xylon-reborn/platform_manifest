@@ -252,7 +252,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="kernel/samsung/tuna" name="xylonak_kernel_samsung_tuna" remote="xy" revision="jb" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="xy" revision="jellybean" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
