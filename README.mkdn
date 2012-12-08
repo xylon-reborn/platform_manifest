@@ -11,5 +11,5 @@ Syncing the XY Source
 
     mkdir ~/aosp
     cd ~/aosp
-    repo init -u https://github.com/XYAOSP/platform_manifest -b jellybean
+    repo init -u https://github.com/XYAOSP/platform_manifest -b jb4.2
     repo sync -j16
