@@ -6,10 +6,10 @@ Get Repo
     curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
     chmod a+x ~/bin/repo
 
-Syncing the Source
+Syncing the XY Source
 ---------------------------------------
 
-    mkdir ~/fnv
-    cd ~/fnv
-    repo init -u https://github.com/XYAOSP/platform_manifest -b jellybean
+    mkdir ~/aosp
+    cd ~/aosp
+    repo init -u https://github.com/XYAOSP/platform_manifest -b jb4.2
     repo sync -j16
