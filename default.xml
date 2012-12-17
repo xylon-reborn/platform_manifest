@@ -62,17 +62,17 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/chromium-trace" name="platform/external/chromium-trace" />
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" />  
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="cm" revision="cm-10.1" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -127,8 +127,8 @@
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-10.1" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" revision="cm-10.1" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="cm-10.1" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
