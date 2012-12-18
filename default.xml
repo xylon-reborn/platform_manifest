@@ -43,6 +43,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="xy" revision="jellybean" groups="device" />
   <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
+  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="xy" revision="jellybean" groups="device" />
