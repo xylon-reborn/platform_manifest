@@ -261,7 +261,6 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="xy" revision="jellybean" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -303,6 +302,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/Settings" name="packages_apps_XYSettings" remote="xy" revision="jellybean" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cm" revision="cm-10.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
