@@ -11,6 +11,9 @@
   <remote  name="aokp"
            fetch="https://github.com/AOKP/" />
 
+  <remote  name="pub"
+           fetch="https://github.com/" />
+
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
@@ -44,7 +47,7 @@
   <project path="device/lge/mako" name="android_device_lge_mako" remote="xy" revision="jellybean" groups="device" />
   <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="xy" revision="jellybean" groups="device" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="xy" revision="jellybean" groups="device" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="xy" revision="jb-mr1" groups="device" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" groups="device" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="xy" revision="jb-mr1" groups="device" />
@@ -67,10 +70,10 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="aosp" revision="jb-mr1-release" />
+  <project path="external/bluetooth/bluedroid" name="UnicornButter/external_bluetooth_bluedroid" remote="pub" revision="jb-mr1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
+  <project path="external/busybox" name="UnicornButter/external_busybox" remote="pub" revision="jb-mr1" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="external_chromium" remote="xy" revision="jellybean" />
@@ -81,10 +84,10 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
+  <project path="external/dnsmasq" name="UnicornButter/external_dnsmasq" remote="pub" revision="jb-mr1" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="UnicornButter/external_e2fsprogs" remote="pub" revision="jb-mr1" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -170,10 +173,11 @@
   <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
+  <project path="external/openssh" name="UnicornButter/external_openssh" remote="pub" revision="jb-mr1" />
+  <project path="external/openssl" name="UnicornButter/external_openssl" remote="pub" revision="jb-mr1" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" />
-  <project path="external/ping" name="platform/external/ping" />
+  <project path="external/ping" name="UnicornButter/external_ping" remote="pub" revision="jb-mr1" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
@@ -192,7 +196,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="platform/external/stlport" />
+  <project path="external/stlport" name="UnicornButter/external_stlport" remote="pub" revision="jb-mr1" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
@@ -208,20 +212,20 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="UnicornButter/external_wpa_supplicant_8" remote="pub" revision="jb-mr1" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.1" />
+  <project path="frameworks/av" name="frameworks_av" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/base" name="frameworks_base" remote="xy" revision="jellybean" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
+  <project path="frameworks/compile/mclinker" name="UnicornButter/frameworks_compile_mclinker" remote="pub" revision="jb-mr1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="UnicornButter/frameworks_ex" remote="pub" revision="jb-mr1" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="android_frameworks_native" remote="cm" revision="cm-10.1" />
@@ -237,7 +241,7 @@
   <project path="frameworks/rs" name="frameworks_rs" remote="xy" revision="jellybean" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="frameworks/wilhelm" name="UnicornButter/frameworks_wilhelm" remote="pub" revision="jb-mr1" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
@@ -247,11 +251,11 @@
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="xy" revision="jellybean" />
+  <project path="hardware/qcom/display" name="UnicornButter/hardware_qcom_display" remote="pub" revision="jb-mr1" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="UnicornButter/hardware_qcom_media" remote="pub" revision="jb-mr1" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
@@ -260,7 +264,7 @@
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  <project path="hardware/ti/omap4xxx" name="UnicornButter/hardware_ti_omap4xxx" remote="pub" revision="jb-mr1" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="libcore" remote="xy" revision="jellybean" />
