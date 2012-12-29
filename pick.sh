@@ -9,6 +9,3 @@ git fetch http://gerrit.sudoservers.com/AOKP/frameworks_av refs/changes/15/4615/
 
 cd ../native
 git fetch http://gerrit.sudoservers.com/AOKP/frameworks_native refs/changes/35/4635/1 && git cherry-pick FETCH_HEAD
-
-cd ../../system/core
-git fetch http://gerrit.sudoservers.com/AOKP/android_system_core refs/changes/91/4691/1 && git cherry-pick FETCH_HEAD
