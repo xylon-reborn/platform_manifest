@@ -55,6 +55,7 @@
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="xy" revision="jellybean" groups="device" />
+  <project path="device/samsung/i9100g" name="android_device_samsung_i9100g" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="xy" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="pub" revision="cm-10.1" />
