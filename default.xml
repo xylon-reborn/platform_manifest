@@ -378,9 +378,31 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
+  <!--
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="xy" revision="jellybean" />
   <project path="vendor/asus" name="vendor_asus" remote="xy" revision="jellybean" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="pub" revision="cm-10.1" />
+  -->
+
+  <project name="TheMuppets/proprietary_vendor_acer" path="vendor/acer" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_akm" path="vendor/akm" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_bn" path="vendor/bn" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_elan" path="vendor/elan" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_hardkernel" path="vendor/hardkernel" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_invensense" path="vendor/invensense" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_imgtec" path="vendor/imgtec" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_nvidia" path="vendor/nvidia" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_nxp" path="vendor/nxp" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="pub" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" remote="pub" revision="cm-10.1" />
+
   <project path="vendor/aosp" name="vendor_aosp" remote="xy" revision="jellybean" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="xy" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
