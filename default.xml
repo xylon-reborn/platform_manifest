@@ -273,7 +273,6 @@
   <project path="libcore" name="libcore" remote="xy" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo"  remote="cm" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth"  remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="xy" revision="jellybean" />
@@ -314,6 +313,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/apps/XYSettings" name="packages_apps_XYSettings" remote="xy" revision="jellybean" />
+  <project path="packages/apps/XYStats" name="packages_apps_XYStats" remote="xy" revision="master" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cm" revision="cm-10.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
