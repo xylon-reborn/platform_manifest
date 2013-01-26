@@ -25,6 +25,9 @@
   <project path="build" name="android_build" remote="xy" revision="jb-mr1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="xylon" name="buildscripts" remote="xy" revision="jellybean" >
+    <copyfile src="build-xy.sh" dest="build-xy.sh" />
+  </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="bionic" remote="xy" revision="jellybean" />
   <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="cm" revision="cm-10.1" />
