@@ -54,6 +54,7 @@
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" groups="device" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="xy" revision="jb-mr1" groups="device" />
+  <project path="device/samsung/p3100" name="android_device_samsung_p3100" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="xy" revision="jb-mr1" groups="device" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="xy" revision="jellybean" groups="device" />
