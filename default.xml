@@ -63,7 +63,6 @@
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="xy" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="pub" revision="cm-10.1" />
-  <project path="kernel/samsung/t1" name="CyanogenMod/android_kernel_samsung_t1" remote="pub" revision="cm-10.1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
