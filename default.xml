@@ -18,9 +18,9 @@
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
-  <default revision="refs/tags/android-4.2.1_r1.2"
+  <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="16" />
 
   <project path="build" name="android_build" remote="xy" revision="jb-mr1">
     <copyfile src="core/root.mk" dest="Makefile" />
