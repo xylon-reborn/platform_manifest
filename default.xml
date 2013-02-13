@@ -267,7 +267,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="jb-mr1-release" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="jb-mr1-release" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="mr1.1-staging" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="jb-mr1-release" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="jb-mr1-release" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="xy" revision="jellybean" />
