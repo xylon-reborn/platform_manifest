@@ -37,7 +37,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="dalvik" remote="xy" revision="jellybean" />
-  <project path="development" name="android_development" remote="cm" revision="mr1.1-staging" />
+  <project path="development" name="android_development" remote="cm" revision="cm-10.1" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="xy" revision="jellybean" groups="device" />
   <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="xy" revision="jellybean" groups="device" />
   <project path="device/common" name="device/common" />
@@ -177,7 +177,7 @@
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
-  <project path="external/nano" name="android_external_nano" remote="cm" revision="mr1.1-staging" />
+  <project path="external/nano" name="android_external_nano" remote="cm" revision="cm-10.1" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/okhttp" name="platform/external/okhttp" />
@@ -375,7 +375,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
-  <project path="sdk" name="android_sdk" remote="cm" revision="mr1.1-staging" />
+  <project path="sdk" name="android_sdk" remote="cm" revision="cm-10.1" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="system_core" remote="xy" revision="jellybean" />
   <project path="system/extras" name="system_extras" remote="xy" revision="jellybean" />
