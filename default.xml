@@ -32,7 +32,7 @@
     <copyfile src="build-xy.sh" dest="build-xy.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="bionic" remote="xy" revision="jellybean" />
+  <project path="bionic" name="kejar31/android_bionic" remote="pub" revision="cm-10.1-linaro" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
@@ -83,7 +83,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cr" revision="jb2" />
+  <project path="external/bluetooth/bluedroid" name="UnicornButter/external_bluetooth_bluedroid" remote="pub" revision="jb-mr1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="external_busybox" remote="xy" revision="jellybean" />
@@ -265,10 +265,10 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cr" revision="jb2" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cr" revision="jb2" />
+  <project path="hardware/qcom/display-caf" name="UnicornButter/hardware_qcom_display-caf" remote="pub" revision="jb-mr1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="cr" revision="jb2" />
+  <project path="hardware/qcom/media" name="UnicornButter/hardware_qcom_media" remote="pub" revision="jb-mr1" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.1" />
