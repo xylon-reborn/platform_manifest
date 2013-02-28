@@ -32,7 +32,7 @@
     <copyfile src="build-xy.sh" dest="build-xy.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="kejar31/android_bionic" remote="xy" revision="cm-10.1-linaro" />
+  <project path="bionic" name="bionic" remote="xy" revision="cm-10.1-linaro" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
