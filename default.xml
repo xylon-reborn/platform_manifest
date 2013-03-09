@@ -67,6 +67,8 @@
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="xy" revision="cm-10.1" />
+  <project path="device/htc/leo" name="android_device_htc_leo" remote="xy" revision="cm-10.1" />
+  <project path="device/htc/qsd8k-common" name="Sportsstar89/android_device_htc_qsd8k-common" remote="pub" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="pub" revision="cm-10.1" />
   <project path="device/ti/panda" name="device/ti/panda" revision="jb-mr1-release" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -396,6 +398,7 @@
   <project path="vendor/asus" name="vendor_asus" remote="xy" revision="jellybean" />
   <project path="vendor/samsung" name="vendor_samsung" remote="xy" revision="jellybean" />
   <project path="vendor/aosp" name="vendor_aosp" remote="xy" revision="jellybean" />
+  <project path="vendor/htc" name="vendor_htc" remote="xy" revision="cm-10.1" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="xy" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="xy" revision="cm-10.1" />
