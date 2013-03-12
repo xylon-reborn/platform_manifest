@@ -23,7 +23,7 @@
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="" />
 
   <project path="build" name="android_build" remote="xy" revision="jb-mr1">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -264,7 +264,7 @@
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="xy" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
-  <project path="hardware/msm7k" name="hardware_msm7k" revision="cm-10.1" remote="xy" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="xy" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
