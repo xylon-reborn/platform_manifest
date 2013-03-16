@@ -6,22 +6,22 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="xy"
-           fetch="https://github.com/XYAOSP/" />
+           fetch="git://github.com/XYAOSP/" />
 
   <remote  name="cr"
-           fetch="https://github.com/CarbonDev" />
+           fetch="git://github.com/CarbonDev" />
 
   <remote  name="aokp"
-           fetch="https://github.com/AOKP/" />
+           fetch="git://github.com/AOKP/" />
  
   <remote  name="pub"
-           fetch="https://github.com/" />
+           fetch="git://github.com/" />
            
   <remote  name="slim"
-           fetch="https://github.com/SlimRoms" />
+           fetch="git://github.com/SlimRoms" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
+           fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
   <default revision="refs/tags/android-4.2.2_r1"
@@ -335,7 +335,7 @@
   <project path="packages/apps/XYSettings" name="packages_apps_XYSettings" remote="xy" revision="jellybean" />
   <project path="packages/apps/XYStats" name="packages_apps_XYStats" remote="xy" revision="master" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="cm" revision="cm-10.1" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="xy" revision="cm-10.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
