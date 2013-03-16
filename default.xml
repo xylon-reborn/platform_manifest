@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="xy"
-           fetch="http://github.com/XYAOSP/" />
+           fetch="https://github.com/XYAOSP/" />
 
   <remote  name="cr"
            fetch="git://github.com/CarbonDev" />
