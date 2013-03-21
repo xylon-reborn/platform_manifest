@@ -20,9 +20,6 @@
   <remote  name="slim"
            fetch="git://github.com/SlimRoms" />
            
-  <remote  name="tb"
-           fetch="git://github.com/trailblazerz" />
-           
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
@@ -56,7 +53,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="xy" revision="jellybean" groups="device" />
-  <project name="lge-kernel-mako" path="kernel/lge/mako" remote="tb" revision="linaro" />
+  <project name="lge-kernel-mako" path="kernel/lge/mako" remote="cm" revision="jellybean" />
   <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="xy" revision="jb-mr1" groups="device" />
