@@ -53,7 +53,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="xy" revision="jellybean" groups="device" />
-  <project name="lge-kernel-mako" path="kernel/lge/mako" remote="cm" revision="jellybean" />
   <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="xy" revision="jb-mr1" groups="device" />
@@ -78,7 +77,6 @@
   <project path="device/htc/leo" name="android_device_htc_leo" remote="xy" revision="cm-10.1" />
   <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="xy" revision="jellybean" />
   <project path="device/asus/tf101" name="android_device_asus_tf101" remote="xy" revision="jellybean-4.2" />
-  <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="pub" revision="cm-10.1" />
   <project path="device/ti/panda" name="device/ti/panda" revision="jb-mr1-release" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -293,7 +291,9 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="xy" revision="jellybean" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="jb-mr1-release" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="jb-mr1-release" />
+  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="cm" revision="jellybean" />
   <project path="kernel/samsung/espresso10" name="android_kernel_samsung_espresso10" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="pub" revision="cm-10.1" />
   <project path="libcore" name="libcore" remote="xy" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
