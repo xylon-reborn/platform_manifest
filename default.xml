@@ -9,7 +9,7 @@
            fetch="https://github.com/XYAOSP/" />
 
   <remote  name="cr"
-           fetch="git://github.com/CarbonDev" />
+           fetch="git://github.com/CarbonDev/" />
 
   <remote  name="aokp"
            fetch="git://github.com/AOKP/" />
@@ -18,7 +18,7 @@
            fetch="git://github.com/" />
            
   <remote  name="slim"
-           fetch="git://github.com/SlimRoms" />
+           fetch="git://github.com/SlimRoms/" />
 
   <remote  name="sm"
            fetch="git://github.com/SaberMod/" />
