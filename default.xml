@@ -22,6 +22,9 @@
 
   <remote  name="sm"
            fetch="git://github.com/SaberMod/" />
+
+  <remote name="faux"
+           fetch="git://github.com/faux123/" />
            
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/"
@@ -297,7 +300,7 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="xy" revision="jellybean" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="slim" revision="jb4.2" />
+  <project path="kernel/lge/mako" name="mako" remote="faux" revision="enhanced_stock" />
   <project path="kernel/samsung/espresso10" name="android_kernel_samsung_espresso10" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="pub" revision="cm-10.1" />
   <project path="libcore" name="libcore" remote="xy" revision="jellybean" />
