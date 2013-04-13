@@ -241,8 +241,8 @@
   <project path="external/webkit" name="external_webkit" remote="xy" revision="jellybean" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/koush/Superuser" name="external_koush_Superuser" remote="aokp" revision="master" />
-  <project path="external/koush/Widgets" name="external_koush_Widgets" remote="aokp" revision="master" />
+  <project name="Superuser" path="external/koush/Superuser" remote="xy" revision="master" />
+  <project name="Widgets" path="external/koush/Widgets" remote="xy" revision="master" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="xy" revision="jellybean" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
