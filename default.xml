@@ -23,7 +23,7 @@
   <remote  name="sm"
            fetch="git://github.com/SaberMod/" />
 
-  <remote name="faux"
+  <remote  name="faux"
            fetch="git://github.com/faux123/" />
            
   <remote  name="cm"
