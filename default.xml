@@ -85,7 +85,7 @@
   <project path="device/htc/leo" name="android_device_htc_leo" remote="xy" revision="cm-10.1" />
   <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="xy" revision="jellybean" />
   <project path="device/asus/tf101" name="android_device_asus_tf101" remote="xy" revision="jellybean-4.2" />
-  <project path="device/ti/panda" name="device/ti/panda" revision="jb-mr1-release" groups="device" />
+  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -241,8 +241,8 @@
   <project path="external/webkit" name="external_webkit" remote="xy" revision="jellybean" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/koush/Superuser" name="external_koush_Superuser" remote="aokp" revision="master" />
-  <project path="external/koush/Widgets" name="external_koush_Widgets" remote="aokp" revision="master" />
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="pub" revision="master" />
+  <project path="external/koush/Widgets" name="koush/Widgets" remote="pub" revision="master" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="xy" revision="jellybean" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
