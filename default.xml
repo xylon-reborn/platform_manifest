@@ -81,6 +81,7 @@
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="xy" revision="cm-10.1" />
+  <project path="device/samsung/i9305" name="android_device_samsung_i9305" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="xy" revision="cm-10.1" />
   <project path="device/htc/leo" name="android_device_htc_leo" remote="xy" revision="cm-10.1" />
   <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="xy" revision="jellybean" />
