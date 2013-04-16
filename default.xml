@@ -319,6 +319,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="xy" revision="cm-10.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="xy" revision="jellybean" />
+  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="xy" revision="jb4.2" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="xy" revision="jellybean" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="xy" revision="cm-10.1" />
