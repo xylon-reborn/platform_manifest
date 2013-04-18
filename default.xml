@@ -416,7 +416,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="system_security" remote="xy" revision="jellybean" />
-  <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
+  <project path="system/vold" name="system_vold" remote="xy" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
