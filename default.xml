@@ -61,6 +61,7 @@
   <project path="device/lge/mako" name="android_device_lge_mako" remote="xy" revision="jellybean" groups="device" />
   <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="xy" revision="jellybean" groups="device" />
+  <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="xy" revision="cm-10.1" groups="device" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="xy" revision="jb-mr1" groups="device" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" groups="device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="xy" revision="jellybean" groups="device" />
