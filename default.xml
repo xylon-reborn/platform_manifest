@@ -72,7 +72,7 @@
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="xy" revision="jb-mr1" groups="device" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" groups="device" />
   <project path="device/samsung/p3100" name="android_device_samsung_p3100" remote="xy" revision="jellybean" groups="device" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="xy" revision="jb-mr1" groups="device" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="aokp" revision="jb-mr1" groups="device" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="xy" revision="jellybean" groups="device" />
@@ -291,10 +291,10 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cr" revision="jb2" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cr" revision="jb2" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.1" />
