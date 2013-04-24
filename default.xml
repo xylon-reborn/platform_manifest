@@ -65,11 +65,11 @@
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="xy" revision="jb-mr1" groups="device" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" groups="device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="xy" revision="jellybean" groups="device" />
-<project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="xy" revision="jellybean" groups="device" />
+  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/p4wifi" name="android_device_samsung_p4wifi" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/p4-common" name="android_device_samsung_p4-common" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="xy" revision="jellybean" groups="device" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" groups="device" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="xy" revision="jb-mr1" groups="device" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" groups="device" />
   <project path="device/samsung/p3100" name="android_device_samsung_p3100" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="aokp" revision="jb-mr1" groups="device" />
