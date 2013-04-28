@@ -89,7 +89,7 @@
   <project path="device/samsung/t0ltecdma" name="android_device_samsung_t0ltecdma" remote="xy" revision="jb-mr1" />
   <project path="device/samsung/t0ltetmo" name="android_device_samsung_t0ltetmo" remote="xy" revision="jb-mr1" />
   <project path="device/samsung/l900" name="android_device_samsung_l900" remote="xy" revision="cm-10.1" />
-  <project path="device/samsung/i605" name="android_device_samsung_i603" remote="xy" revision="cm-10.1" />
+  <project path="device/samsung/i605" name="android_device_samsung_i605" remote="xy" revision="cm-10.1" />
   <project path="device/htc/leo" name="android_device_htc_leo" remote="xy" revision="cm-10.1" />
   <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="xy" revision="jellybean" />
   <project path="device/asus/tf101" name="android_device_asus_tf101" remote="xy" revision="jellybean-4.2" />
