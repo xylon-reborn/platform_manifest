@@ -328,7 +328,7 @@
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="xy" revision="jb4.2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="xy" revision="cm-10.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="xy" revision="jellybean" />
   <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="xy" revision="jb4.2" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="xy" revision="jellybean" />
@@ -437,5 +437,6 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="xy" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/themes/SnapBlack" name="vendor-tmobile-themes-SnapBlack" remote="xy" revision="jellybean" />
+  
   <project path="platform_manifest" name="platform_manifest" remote="xy" revision="jb4.2" />
 </manifest>
