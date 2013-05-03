@@ -330,7 +330,7 @@
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="xy" revision="jellybean" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="xy" revision="jellybean" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="xy" revision="cm-10.1" />
-  <project path="packages/apps/Camera" name="packages_apps_Camera" remote="xy" revision="jb4.2" />
+  <project path="packages/apps/Camera" name="packages_apps_Camera" remote="slim" revision="jb4.2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="xy" revision="cm-10.1" />
