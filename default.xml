@@ -61,6 +61,10 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/htc/apq8064-common" name="htc-msm8960/android_device_htc_apq8064-common" remote="pub" revision="cm-10.1" />
+  <project path="device/htc/msm8960-common" name="htc-msm8960/android_device_htc_msm8960-common" remote="pub" revision="cm-10.1" />
+  <project path="device/htc/m7" name="android_device_htc_m7" remote="xy" revision="cm-10.1" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="xy" revision="cm-10.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="xy" revision="jellybean" groups="device" />
   <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="xy" revision="jellybean" groups="device" />
@@ -312,6 +316,7 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="xy" revision="jellybean" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="kernel/htc/m7" name="htc-msm8960/android_kernel_htc_m7" remote="pub" revision="cm-10.1" />
   <project path="kernel/lge/mako" name="mako" remote="xy" revision="jellybean" />
   <project path="kernel/samsung/espresso10" name="android_kernel_samsung_espresso10" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="xy" revision="cm-10.1" />
@@ -430,6 +435,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/lge" name="android_vendor_lge" remote="xy" revision="jb-ras-mr1.1" />
   <project path="vendor/asus" name="vendor_asus" remote="xy" revision="jellybean" />
+  <project path="vendor/htc/m7" name="htc-msm8960/android_vendor_htc_m7" remote="gh" revision="cm-10.1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="xy" revision="jellybean" />
   <project path="vendor/aosp" name="vendor_aosp" remote="xy" revision="jellybean" />
   <project path="vendor/htc" name="android_vendor_htc" remote="xy" revision="cm-10.1" />
