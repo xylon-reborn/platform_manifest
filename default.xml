@@ -424,7 +424,7 @@
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />  
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
@@ -440,18 +440,19 @@
   <project path="system/vold" name="system_vold" remote="xy" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  <project path="vendor/lge" name="android_vendor_lge" remote="xy" revision="jb-ras-mr1.1" />
+
+  <project path="vendor/aosp" name="vendor_aosp" remote="xy" revision="jellybean" />
   <project path="vendor/asus" name="vendor_asus" remote="xy" revision="jellybean" />
+  <project path="vendor/htc" name="android_vendor_htc" remote="xy" revision="cm-10.1" />
   <project path="vendor/htc/m7" name="htc-msm8960/android_vendor_htc_m7" remote="pub" revision="cm-10.1" />
   <project path="vendor/htc/m7-common" name="htc-msm8960/android_vendor_htc_m7-common" remote="pub" revision="cm-10.1" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="xy" revision="jb-ras-mr1.1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="xy" revision="jellybean" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="xy" revision="jellybean" />
-  <project path="vendor/htc" name="android_vendor_htc" remote="xy" revision="cm-10.1" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="xy" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="xy" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/themes/SnapBlack" name="vendor-tmobile-themes-SnapBlack" remote="xy" revision="jellybean" />
-  
+
   <project path="platform_manifest" name="platform_manifest" remote="xy" revision="jb4.2" />
 </manifest>
