@@ -267,8 +267,8 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="xy" revision="jellybean" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
-  <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="slim" revision="jb4.2" />
+  <project path="external/zlib" name="android_external_zlib" remote="slim" revision="jb4.2" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="frameworks_av" remote="xy" revision="jb-mr1" />
   <project path="frameworks/base" name="frameworks_base" remote="xy" revision="jellybean" />
