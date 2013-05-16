@@ -87,9 +87,10 @@
   <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="xy" revision="cm-10.1" />
-  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="xy" revision="cm-10.1" />
+  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="xy" revision="jb4.2" />
+  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="xy" revision="cm-10.1" />
