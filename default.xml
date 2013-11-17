@@ -417,7 +417,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/aosp" name="vendor_aosp" remote="xy-reb" revision="kk4.4" />
+  <project path="vendor/xylon" name="android_vendor_xylon" remote="xy-reb" revision="kk4.4" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="xy-reb" revision="kk4.4" />
   <project path="platform_manifest" name="platform_manifest" remote="xy-reb" revision="kk4.4" />
 </manifest>
