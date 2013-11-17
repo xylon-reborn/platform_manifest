@@ -9,7 +9,7 @@ Get Repo
 Syncing the XY Source
 ---------------------------------------
 
-    mkdir ~/aosp
-    cd ~/aosp
-    repo init -u https://github.com/XYAOSP/platform_manifest -b jb4.2
-    repo sync -j16
+    mkdir ~/xylon
+    cd ~/xylon
+    repo init -u https://github.com/xylon-reborn/platform_manifest -b kk4.4
+    repo sync -j12
